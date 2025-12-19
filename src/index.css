@@ -1,0 +1,84 @@
+/* ===== Light Theme (Purple University System) ===== */
+:root {
+  /* Fonts */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+
+  /* Primary */
+  --color-primary: #6B21A8;        /* Deep purple for trust & creativity */
+  --color-primary-light: #A78BFA;  /* Lighter purple hover */
+
+  /* Secondary */
+  --color-secondary: #8B5CF6;      /* Soft purple complement */
+
+  /* Accent */
+  --color-accent: #EC4899;         /* Bright pink for highlights/attention */
+
+  /* Alerts */
+  --color-alert: #EF4444;          /* Red for errors */
+  --color-info: #6366F1;           /* Blueish info */
+
+  /* Neutrals */
+  --color-bg: #F4F1FF;             /* Very light lavender background */
+  --color-section: #FFFFFF;        /* Card/section bg */
+  --color-text-primary: #1F2937;   /* Strong readable text */
+  --color-text-secondary: #4B5563; /* Muted text */
+  --color-border: #E5E7EB;         /* Soft borders */
+}
+
+/* ===== Dark Theme (Purple University System) ===== */
+[data-theme="dark"] {
+  --color-primary: #A78BFA;        /* Brighter purple */
+  --color-primary-light: #6D28D9;  /* Deep purple hover */
+
+  --color-secondary: #C4B5FD;      /* Lighter purple complement */
+  --color-accent: #F472B6;         /* Soft pink accent */
+
+  --color-alert: #F87171;
+  --color-info: #818CF8;
+
+  --color-bg: #1F1B2E;             /* Deep purple/navy bg */
+  --color-section: #2A2438;        /* Dark card bg */
+  --color-text-primary: #F3F4F6;   /* Light text */
+  --color-text-secondary: #C4B5FD; /* Muted lavender text */
+  --color-border: #3F3C51;         /* Dark border */
+}
+
+/* ===== Base Styles ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+}
+
+button {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+button:hover {
+  background: var(--color-primary-light);
+  transform: translateY(-2px);
+}
+
+.card {
+  background: var(--color-section);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
