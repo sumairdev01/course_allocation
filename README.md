@@ -2,7 +2,7 @@
 
 A modern, full-stack application for managing and generating teacher-course schedules. Built with a React frontend and a Django REST API backend.
 
-## 🚀 Features
+## Features
 
 - **Automated Scheduling**: Intelligent algorithm to match teachers with courses based on qualification, department, and preferences.
 - **Teacher Management**: Full CRUD operations for managing teacher profiles and credit hour limits.
@@ -11,14 +11,14 @@ A modern, full-stack application for managing and generating teacher-course sche
 - **Export Options**: Download generated schedules as Excel or PDF files.
 - **Persistent Storage**: All allocations and data are stored in a PostgreSQL database.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js, Styled Components, Axios
 - **Backend**: Django, Django REST Framework
 - **Database**: PostgreSQL
 - **Exports**: jsPDF, XLSX
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -62,6 +62,6 @@ A modern, full-stack application for managing and generating teacher-course sche
    ```
    The app will be available at `http://localhost:3000`.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
