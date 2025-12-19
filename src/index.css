@@ -1,50 +1,41 @@
-/* ===== Light Theme (Purple University System) ===== */
 :root {
-  /* Fonts */
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Inter', sans-serif;
 
-  /* Primary */
-  --color-primary: #6B21A8;        /* Deep purple for trust & creativity */
-  --color-primary-light: #A78BFA;  /* Lighter purple hover */
+  --color-primary: #6B21A8;
+  --color-primary-light: #A78BFA;
 
-  /* Secondary */
-  --color-secondary: #8B5CF6;      /* Soft purple complement */
+  --color-secondary: #8B5CF6;
 
-  /* Accent */
-  --color-accent: #EC4899;         /* Bright pink for highlights/attention */
+  --color-accent: #EC4899;
 
-  /* Alerts */
-  --color-alert: #EF4444;          /* Red for errors */
-  --color-info: #6366F1;           /* Blueish info */
+  --color-alert: #EF4444;
+  --color-info: #6366F1;
 
-  /* Neutrals */
-  --color-bg: #F4F1FF;             /* Very light lavender background */
-  --color-section: #FFFFFF;        /* Card/section bg */
-  --color-text-primary: #1F2937;   /* Strong readable text */
-  --color-text-secondary: #4B5563; /* Muted text */
-  --color-border: #E5E7EB;         /* Soft borders */
+  --color-bg: #F4F1FF;
+  --color-section: #FFFFFF;
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #4B5563;
+  --color-border: #E5E7EB;
 }
 
-/* ===== Dark Theme (Purple University System) ===== */
 [data-theme="dark"] {
-  --color-primary: #A78BFA;        /* Brighter purple */
-  --color-primary-light: #6D28D9;  /* Deep purple hover */
+  --color-primary: #A78BFA;
+  --color-primary-light: #6D28D9;
 
-  --color-secondary: #C4B5FD;      /* Lighter purple complement */
-  --color-accent: #F472B6;         /* Soft pink accent */
+  --color-secondary: #C4B5FD;
+  --color-accent: #F472B6;
 
   --color-alert: #F87171;
   --color-info: #818CF8;
 
-  --color-bg: #1F1B2E;             /* Deep purple/navy bg */
-  --color-section: #2A2438;        /* Dark card bg */
-  --color-text-primary: #F3F4F6;   /* Light text */
-  --color-text-secondary: #C4B5FD; /* Muted lavender text */
-  --color-border: #3F3C51;         /* Dark border */
+  --color-bg: #1F1B2E;
+  --color-section: #2A2438;
+  --color-text-primary: #F3F4F6;
+  --color-text-secondary: #C4B5FD;
+  --color-border: #3F3C51;
 }
 
-/* ===== Base Styles ===== */
 body {
   margin: 0;
   padding: 0;

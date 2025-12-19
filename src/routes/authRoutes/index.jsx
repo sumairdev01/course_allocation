@@ -7,13 +7,11 @@ import Register from '../../pages/auth/register'
 const AuthRoutes = () => {
   return (
     <div>
-      {/* <AuthLayout> */}
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgetPassword" element={<ForgotPassword />} />
       </Routes>
-      {/* </AuthLayout> */}
     </div>
   )
 }

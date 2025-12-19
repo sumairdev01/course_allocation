@@ -13,7 +13,6 @@ const AdminLayout = ({ children }) => {
       </LeftDiv>
 
       <div className="dA-content">
-        {/* <div> <Navbar/></div> */}
         {children}
       </div>
     </Main>

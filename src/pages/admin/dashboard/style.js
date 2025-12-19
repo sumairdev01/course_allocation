@@ -1,7 +1,6 @@
 
 import styled from "styled-components";
 
-/* ===== Dashboard Layout ===== */
 export const DashboardContainer = styled.div`
   padding: 2rem;
   display: flex;
@@ -12,7 +11,6 @@ export const DashboardContainer = styled.div`
   min-height: 100vh;
 `;
 
-/* ===== Greeting Section ===== */
 export const GreetingSection = styled.div`
   background: var(--color-section);
   border: 1px solid var(--color-border);
@@ -37,7 +35,6 @@ export const GreetingSection = styled.div`
   }
 `;
 
-/* ===== Time Box ===== */
 export const TimeBox = styled.div`
   text-align: right;
 
@@ -53,14 +50,12 @@ export const TimeBox = styled.div`
   }
 `;
 
-/* ===== Stats Grid ===== */
 export const StatGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
 `;
 
-/* ===== Stat Cards ===== */
 export const StatCard = styled.div`
   background: var(--color-section);
   border: 1px solid var(--color-border);

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
   
-  /* margin-left: 240px; */
   height: 70px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(14px);
