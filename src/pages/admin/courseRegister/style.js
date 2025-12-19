@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-/* ====== Layout ====== */
+
 export const PageContainer = styled.div`
   min-height: 100vh;
   background: linear-gradient(135deg, var(--color-bg) 0%, #ffffff 100%);
@@ -9,7 +9,7 @@ export const PageContainer = styled.div`
   color: var(--color-text-primary);
 `;
 
-/* ====== Header ====== */
+
 export const HeaderBar = styled.div`
   height: 90px;
   background: rgba(255, 255, 255, 0.75);
@@ -28,7 +28,7 @@ export const HeaderTitle = styled.h1`
   letter-spacing: 0.5px;
 `;
 
-/* ====== Add Button ====== */
+
 export const AddButton = styled.button`
   background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
   color: #fff;
@@ -47,7 +47,7 @@ export const AddButton = styled.button`
   }
 `;
 
-/* ====== Table ====== */
+
 export const TableContainer = styled.div`
   overflow-x: auto;
   background: rgba(255, 255, 255, 0.8);
@@ -115,7 +115,7 @@ export const TableData = styled.td`
   }
 `;
 
-/* ====== Modal ====== */
+
 export const ModalOverlay = styled.div`
   position: fixed;
   inset: 0;
